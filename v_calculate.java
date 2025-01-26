@@ -22,6 +22,5 @@ public class v_calculate {
         double per = to/400*100;
         System.out.println("Total Marks: "+to2);
         System.out.print("Percentage Marks: "+per+"%");
-
     }
 }

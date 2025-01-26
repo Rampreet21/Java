@@ -11,8 +11,5 @@ public class iv_input {
 
             System.out.println("Sum of "+a+" + "+b+" = "+(a+b));
         }
-        
-
-         
     }
 
