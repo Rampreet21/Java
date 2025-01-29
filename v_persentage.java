@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class v_calculate {
+public class  v_persentage{
     public static void main(String[] args){
         Scanner dlip = new Scanner(System.in);
 
