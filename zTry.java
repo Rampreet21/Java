@@ -1,17 +1,17 @@
-import java.util.Scanner;
-
-public class Ztry {
+class Ztryy {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        try {
-            System.out.print("Enter Number: ");
-            float a = in.nextFloat(); // 'float' is preferable over 'Float' (wrapper class)
+        int marks = 75;
 
-            System.out.println("Sum: " + a); 
-        } catch (Exception e) {
-            System.out.println("Invalid input. Please enter a valid number.");
-        } finally {
-            in.close(); // Closing Scanner to prevent memory leak
+        if (marks >= 90) {
+            System.out.println("Grade: A");
+        } else if (marks >= 80) {
+            System.out.println("Grade: B");
+        } else if (marks >= 70) {
+            System.out.println("Grade: C");
+        } else if (marks >= 60) {
+            System.out.println("Grade: D");
+        } else {
+            System.out.println("Grade: F");
         }
     }
 }
