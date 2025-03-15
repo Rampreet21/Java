@@ -12,5 +12,4 @@ public class ix_constructs {
         ix_constructs ob = new ix_constructs(4, 2);
 
     }
-
 }
