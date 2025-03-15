@@ -11,7 +11,7 @@ class Dog implements Animal {
     }
 }
 
-public class Main {
+public class B_interface_variable {
     public static void main(String[] args) {
         Dog d = new Dog();
         d.makeSound();
